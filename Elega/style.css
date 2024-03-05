@@ -1,0 +1,243 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    margin: 0 250px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-meniu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-meniu {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 694px;
+    width: 100%;
+}
+
+.nav-meniu2 {
+    display: flex;
+}
+.nav-meniu2 img, .profile img {
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.profile {
+    display: flex;
+    margin-left: 24px;
+}
+
+.profile-info p {
+    display: block;
+    margin: 0 0 0 12px;
+}
+
+.header-info {
+    display: flex;
+    margin-left: 250px;
+    align-items: center;
+    height: 900px;
+}
+
+.header-about {
+    margin-right: 228px;
+}
+
+.search {
+    position: relative;
+    width: 585px;
+    margin-top: 48px;
+    margin-bottom: 202px;
+}
+.search input {
+    background-color: #161616;
+    border: none;
+    width: 585px;
+    height: 62px;
+    border-radius: 50px;
+    color: #5F5F5F;
+    font-size: 20px;
+    padding-left: 24px;
+}
+
+.search button {
+    background-color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 60px;
+    color: black;
+    position: absolute;
+    right: -16px;
+    top: 6px;
+    padding: 0;
+}
+
+.more {
+    text-decoration: none;
+    display: flex;
+    height: 42px;
+    align-items: center;
+    
+}
+
+.scroll {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+main {
+    margin-left: 243px;
+    margin-right: 243px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 139px;
+    padding-bottom: 61px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px;
+    margin-bottom: 52px;
+}
+
+.casual {
+    max-width: 550px;
+}
+
+.casual h1, .description h1 {
+    font-size: 64px;
+}
+
+.more {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.more button {
+    width: 132px;
+    height: 36px;
+    background-color: #1B1B1B;
+    color: white;
+    border-radius: 20px;
+}
+
+.products {
+    margin-top: 48px;
+    margin-bottom: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.autumn-offers {
+    background-image: url(images/Special_offers_section2.png);
+    background-position:  center;
+    display: flex;
+    align-items: center;
+}
+
+.autumn-offers .discount h1 {
+    font-size: 160px;
+    align-items: center;
+    width: 800px;
+}
+
+.autumn-offers .discount h2 {
+    font-size: 36px;
+}
+
+.shop-collection {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h1 {
+    width: 630px;
+}
+
+.description p {
+    width: 500px;
+    color: #5F5F5F;
+    margin: 32px 0;
+}
+
+.shoe-white {
+    background-image: url(images/Ellipse42_2.png);
+    background-position-x: -110px;
+    background-position-y: -80px;
+    margin-left: 220px;
+}
+
+.description button {
+    background-color: white;
+    width: 245px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.line {
+    background-color: #5F5F5F;
+    border: none;
+    height: 1px;
+    margin-top: 100px;
+    margin-bottom: 83px;
+}
+
+footer {
+    padding: 0 375px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+footer a {
+    color: #5F5F5F;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.meniu, .Account, .Help, .contacts-us-social-media {
+    display: flex;
+    flex-direction: column;
+}
